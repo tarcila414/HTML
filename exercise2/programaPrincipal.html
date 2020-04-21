@@ -24,6 +24,9 @@
         -tr : linha
         -td : coluna
     7- Quadro para input do usuario
+        7.1 escolher uma alternativa
+        7.2 checkbox: escolher mais de uma opcao
+        7.3 select : escolher uma opcao
 -->
  
  <!-- (1) sup and sub -->
@@ -60,7 +63,7 @@
             </ul>
         </li>
         <li> Carlos Eduardo
-            <ul>
+            <ul> 
                 <li>Cadu</li>
                 <li>Kaká</li>
             </ul>
@@ -72,9 +75,7 @@
         <tr>    <td>Nome</td> <td>Surname</td></tr>
         <tr>    <td>Vitor</td> <td>Vitinho</td></tr>
         <tr>    <td>Carlos</td> <td>Kaká</td></tr>
-    </table>
-<!-- (7) Quadro para input do usuario -->
-    <form action="" method="">
+    </table> 
         <label for='name'>First Name</label>
         <input type="text" name="name" id="name">
         <br>
@@ -83,7 +84,30 @@
         <br>
         <label for="password">Password</label>
         <input type="password" placeholder="password">
+<!-- (7.1) Escolher uma opcao -->
+        <p>Select your favorite color</p>
+        <input type="radio" name="color" id=""> Blue 
+        <br>
+        <input type="radio" name="color" id=""> Yellow
+        <br>
+        <input type="radio" name="color" id=""> Pink
+        <br>
+<!-- (7.2) Escolher mais de uma opcao -->
+        <p>What colors do you like?</p>
+        <input type="checkbox" name="check" id=""> Purple
+        <br>
+        <input type="checkbox" name="check" id=""> White
+        <br>
+        <input type="checkbox" name="check" id=""> Black
+        <br>
+<!-- (7.3) Escolher uma opcao -->
+        <p> The color of the sky is _____.</p>
+        <select name="sky" id="">
+            <option value="black">black</option>
+            <option value="blue">blue</option>
+            <option value="pink">pink</option>
+        </select>
         <!-- <button type="submit"> submit</button> -->
     </form>   
 </body>
-</html>
+</html>${workspaceFolder}
