@@ -1,0 +1,59 @@
+/*
+*RGB (Red,Green,Blue)
+*0-255
+*/
+
+/*class*/
+.red {
+  background: rgb(255, 0, 0);
+}
+
+/*id*/
+#black {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+}
+#green {
+  background: rgb(0, 255, 0);
+}
+
+/*
+*transparency
+* RGBA (red,green,blue,transparency)
+*/
+
+#first {
+  color: rgb (200, 99, 33);
+  background: rgba(0, 120, 120, 0.1);
+}
+
+#second {
+  color: rgb (10, 93, 34);
+  background: rgba(0, 120, 120, 0.5);
+}
+#third {
+  color: rgb (10, 93, 34);
+  background: rgba(0, 120, 120, 1);
+}
+
+/*
+* HEX    #(RR)(GG)(BB)
+* red    #FF0000
+* green  #00FF00
+* blue   #0000FF
+*/
+
+#a {
+  color: #ff0000;
+  background: #8a0110;
+}
+
+#b {
+  color: #00ff00;
+  background: #0a5500;
+}
+
+#c {
+  color: #0000ff;
+  background: #000033;
+}

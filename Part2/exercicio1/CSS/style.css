@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(186, 241, 243);
+}
+
+/* Selectors */
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: cornflowerblue;
+}
+
+p {
+  color: darkslategray;
+}
+
+/* ID */
+#title1 {
+  background: gray;
+}
+
+/* CLASS */
+.white {
+  color: white;
+}
+.orange {
+  color: rgb(243, 109, 61);
+}
+
+.fColor {
+  color: fuchsia;
+}
+/*Groups*/
+/* DIV
+-Remember you can use div and class at the same time
+*/
+div {
+  background: rgb(113, 113, 226);
+}
+
+/* SPAN */
+span {
+  text-transform: uppercase;
+}
